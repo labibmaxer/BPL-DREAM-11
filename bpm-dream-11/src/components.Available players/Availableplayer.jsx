@@ -6,8 +6,8 @@ const Availableplayer = ({ players }) => {
     console.log(players, 'players');
     
   return (
-    <div className=' '>
-
+    <div >
+<div className='grid grid-cols-3 gap-4' >
   {players.map((player, index) => {
   console.log(player, 'players');
   return (
@@ -44,7 +44,7 @@ const Availableplayer = ({ players }) => {
   
   );
 })}
-
+</div>
 
 
      
