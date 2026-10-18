@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "playerName": "Shakib Al Hasan",
+    "playerCountry": "Bangladesh",
+    "playerType": "All-Rounder",
+    "rating": 9.5,
+    "battingStyle": "Left-Handed",
+    "bowlingStyle": "Left-Arm Spin",
+    "price": 120000,
+    "playerImage": "https://i.ibb.co/L519p4s/shakib.png"
+  },
+  {
+    "id": 2,
+    "playerName": "Tamim Iqbal",
+    "playerCountry": "Bangladesh",
+    "playerType": "Batsman",
+    "rating": 8.8,
+    "battingStyle": "Left-Handed",
+    "bowlingStyle": "Right-Arm Off-Break",
+    "price": 100000,
+    "playerImage": "https://i.ibb.co/30C66G2/tamim.png"
+  },
+  {
+    "id": 3,
+    "playerName": "Rashid Khan",
+    "playerCountry": "Afghanistan",
+    "playerType": "Bowler",
+    "rating": 9.8,
+    "battingStyle": "Right-Handed",
+    "bowlingStyle": "Right-Arm Leg-Spin",
+    "price": 150000,
+    "playerImage": "https://i.ibb.co/7X256p3/rashid.png"
+  },
+  {
+    "id": 4,
+    "playerName": "Mustafizur Rahman",
+    "playerCountry": "Bangladesh",
+    "playerType": "Bowler",
+    "rating": 9.0,
+    "battingStyle": "Left-Handed",
+    "bowlingStyle": "Left-Arm Fast-Medium",
+    "price": 110000,
+    "playerImage": "https://i.ibb.co/3R5H4Yp/fiz.png"
+  },
+  {
+    "id": 5,
+    "playerName": "Suryakumar Yadav",
+    "playerCountry": "India",
+    "playerType": "Batsman",
+    "rating": 9.6,
+    "battingStyle": "Right-Handed",
+    "bowlingStyle": "Right-Arm Off-Break",
+    "price": 140000,
+    "playerImage": "https://i.ibb.co/JqS2mX2/sky.png"
+  },
+  {
+    "id": 6,
+    "playerName": "Andre Russell",
+    "playerCountry": "West Indies",
+    "playerType": "All-Rounder",
+    "rating": 9.4,
+    "battingStyle": "Right-Handed",
+    "bowlingStyle": "Right-Arm Fast",
+    "price": 130000,
+    "playerImage": "https://i.ibb.co/SvtY5k4/russell.png"
+  },
+  {
+    "id": 7,
+    "playerName": "Litton Das",
+    "playerCountry": "Bangladesh",
+    "playerType": "Wicket-Keeper",
+    "rating": 8.6,
+    "battingStyle": "Right-Handed",
+    "bowlingStyle": "N/A",
+    "price": 95000,
+    "playerImage": "https://i.ibb.co/MfZ8D02/litton.png"
+  },
+  {
+    "id": 8,
+    "playerName": "Moeen Ali",
+    "playerCountry": "England",
+    "playerType": "All-Rounder",
+    "rating": 8.9,
+    "battingStyle": "Left-Handed",
+    "bowlingStyle": "Right-Arm Off-Break",
+    "price": 105000,
+    "playerImage": "https://i.ibb.co/xL1R5Jp/moeen.png"
+  },
+  {
+    "id": 9,
+    "playerName": "Towhid Hridoy",
+    "playerCountry": "Bangladesh",
+    "playerType": "Batsman",
+    "rating": 8.4,
+    "battingStyle": "Right-Handed",
+    "bowlingStyle": "Right-Arm Off-Break",
+    "price": 85000,
+    "playerImage": "https://i.ibb.co/4pF9G3k/hridoy.png"
+  }
+]

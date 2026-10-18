@@ -1,0 +1,25 @@
+import React from 'react';
+ import Currencyimg from "/src/assets/Currency.png";
+const Navbar = () => {
+    return (
+        <div>
+              <div className="navbar bg-base-100 shadow-sm container mx-auto">
+  <div className="flex-none">
+    <button className="btn btn-square btn-ghost">
+      <svg aria-label="Menu" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block h-5 w-5 stroke-current"> <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path> </svg>
+    </button>
+  </div>
+  <div className="flex-1">
+    <a className="btn btn-ghost text-xl">daisyUI</a>
+  </div>
+  <div className="">
+    <button className=" flex">
+                  0 coins <img src={Currencyimg} alt="" />
+    </button>
+  </div>
+</div> 
+        </div>
+    );
+};
+
+export default Navbar;
