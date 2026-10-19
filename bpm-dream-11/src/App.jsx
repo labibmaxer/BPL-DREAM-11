@@ -3,6 +3,7 @@ import Banner from './components.banner/banner' // Capitalize component variable
 import Player from './components.player/player'
 import { Suspense } from 'react';
 import Availableplayer from './components.Available players/Availableplayer';
+import Card from './components.Available players/component.card/Card';
  const fetchPlayer = async() => {
     const res = await fetch ("/data.json");
     return res.json();

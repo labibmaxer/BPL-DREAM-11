@@ -1,0 +1,55 @@
+import React from 'react';
+
+const Card = ({player}) => {
+    return (
+        <div >
+<div className='grid  grid-cols-1 md: grid-cols-3 gap-4' >
+  {players.map((player, index) => {
+  console.log(player, 'players');
+  
+  return (
+    
+   
+      <div className="card bg-base-100 w-96 shadow-sm">
+        
+  <figure>
+    <img
+      src= {player.playerImage}
+      alt="Shoes" />
+  </figure>
+
+  
+  <div className="card-body">
+    <h2 className="card-title"><FaCircleUser />{player.playerName}</h2>
+    <div className='flex justify-between gap-2 items-center'>
+        <div className='flex gap-2 items-center'>
+        <FaFlag /> 
+        <p>{player.playerCountry}</p>
+        </div>
+        <button className='btn'>{player.playerType} </button>
+    </div>
+    <div className="divider"></div>
+    <h2>{player.rating}</h2>
+    <div className='flex justify-between gap-4 font-bold'>
+        <p>{player.battingStyle}</p>
+        <p className='text-right'>{player.bowlingStyle}</p>
+    </div>
+    {/* <p>A card component has a figure, a body part, and inside body there are title and actions parts</p> */}
+    <div className="card-actions justify-between font-semibold items-center">
+        <p>Price :{player.price}</p>
+      <button className="btn ">Choose Player</button>
+    </div>
+  </div>
+</div> 
+  
+  );
+})}
+</div>
+
+
+     
+    </div>
+    );
+};
+
+export default Card;
