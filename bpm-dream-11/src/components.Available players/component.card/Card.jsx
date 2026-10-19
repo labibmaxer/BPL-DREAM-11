@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { FaCircleUser } from "react-icons/fa6";
 import { FaFlag } from "react-icons/fa";
 const Card = ({player}) => {
-
+const [isSelected , setisSelected] = useState (false);
   
   return (
     
@@ -34,7 +34,7 @@ const Card = ({player}) => {
     {/* <p>A card component has a figure, a body part, and inside body there are title and actions parts</p> */}
     <div className="card-actions justify-between font-semibold items-center">
         <p>Price :{player.price}</p>
-      <button className="btn ">Choose Player</button>
+      <button className="btn " onClick={() => setisSelected(true)} disabled={isSelected}>{ isSelected === (true) ? "selected" :  "Choose Player"}</button>
     </div>
   </div>
 </div> 

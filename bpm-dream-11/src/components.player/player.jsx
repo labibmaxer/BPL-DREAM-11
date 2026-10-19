@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { use } from 'react';
 import Availableplayer from '../components.Available players/Availableplayer';
+import SelectedPlayers from '../components.selectedPlayers/SelectedPlayers';
 const Player = ({playerpromise}) => {
     console.log(playerpromise);
     
@@ -13,7 +14,9 @@ const Player = ({playerpromise}) => {
         
         <div className='container mx-auto'>
             <div>
-                <div>Available players</div>
+                <div> 
+              { selectedType === "available" ? <h2>Available players </h2> : <h2>selected </h2>                  }   
+              </div>
                 <div className='align-right text-right gap-3 mb-[20px]'>
                     <button onClick= { () => setselectedType('available')} className={`btn text-black rounded-r-none rounded-l-xl ${
     selectedType === "available" ? "bg-[#E7FE29]" : ""
@@ -23,7 +26,7 @@ const Player = ({playerpromise}) => {
     selectedType === "selected" ? "bg-[#E7FE29]" : ""
   }`}>Selected</button>
                 </div>
-        <Availableplayer players={players}></Availableplayer>
+        {selectedType === "available" ? <Availableplayer players={players}></Availableplayer> : <SelectedPlayers></SelectedPlayers>}
         </div>
           </div>
     );
