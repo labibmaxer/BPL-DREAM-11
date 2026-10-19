@@ -7,7 +7,7 @@
     "rating": 9.5,
     "battingStyle": "Left-Handed",
     "bowlingStyle": "Left-Arm Spin",
-    "price": 120000,
+    "price": 120,
     "playerImage": "https://i.ibb.co/L519p4s/shakib.png"
   },
   {
@@ -18,7 +18,7 @@
     "rating": 8.8,
     "battingStyle": "Left-Handed",
     "bowlingStyle": "Right-Arm Off-Break",
-    "price": 100000,
+    "price": 100,
     "playerImage": "https://i.ibb.co/30C66G2/tamim.png"
   },
   {
@@ -29,7 +29,7 @@
     "rating": 9.8,
     "battingStyle": "Right-Handed",
     "bowlingStyle": "Right-Arm Leg-Spin",
-    "price": 150000,
+    "price": 150,
     "playerImage": "https://i.ibb.co/7X256p3/rashid.png"
   },
   {
@@ -40,7 +40,7 @@
     "rating": 9.0,
     "battingStyle": "Left-Handed",
     "bowlingStyle": "Left-Arm Fast-Medium",
-    "price": 110000,
+    "price": 110,
     "playerImage": "https://i.ibb.co/3R5H4Yp/fiz.png"
   },
   {
@@ -51,7 +51,7 @@
     "rating": 9.6,
     "battingStyle": "Right-Handed",
     "bowlingStyle": "Right-Arm Off-Break",
-    "price": 140000,
+    "price": 140,
     "playerImage": "https://i.ibb.co/JqS2mX2/sky.png"
   },
   {
@@ -62,7 +62,7 @@
     "rating": 9.4,
     "battingStyle": "Right-Handed",
     "bowlingStyle": "Right-Arm Fast",
-    "price": 130000,
+    "price": 130,
     "playerImage": "https://i.ibb.co/SvtY5k4/russell.png"
   },
   {
@@ -73,7 +73,7 @@
     "rating": 8.6,
     "battingStyle": "Right-Handed",
     "bowlingStyle": "N/A",
-    "price": 95000,
+    "price": 950,
     "playerImage": "https://i.ibb.co/xL1R5Jp/Litton_Das.png "
   },
   {
@@ -84,7 +84,7 @@
     "rating": 8.9,
     "battingStyle": "Left-Handed",
     "bowlingStyle": "Right-Arm Off-Break",
-    "price": 105000,
+    "price": 105,
     "playerImage": "https://i.ibb.co/xL1R5Jp/moeen.png"
   },
   {
@@ -95,7 +95,7 @@
     "rating": 8.4,
     "battingStyle": "Right-Handed",
     "bowlingStyle": "Right-Arm Off-Break",
-    "price": 85000,
+    "price": 850,
     "playerImage": "https://i.ibb.co/4pF9G3k/hridoy.png"
   }
 ]
