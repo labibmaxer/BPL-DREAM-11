@@ -1,13 +1,15 @@
 import React from 'react';
-import { FaCircleUser } from "react-icons/fa6";
-import { FaFlag } from "react-icons/fa";
 import Card from './component.card/Card';
 
 const Availableplayer = ({ players }) => {
-    console.log(players, 'players');
-    
   return (
-   <Card player={player}></Card>
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+      {players.map((player, index) => (
+      
+
+        <Card key={index} player={player} />
+      ))}
+    </div>
   );
 };
 

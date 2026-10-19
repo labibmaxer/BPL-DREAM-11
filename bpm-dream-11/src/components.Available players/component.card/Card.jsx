@@ -1,11 +1,8 @@
 import React from 'react';
-
+import { FaCircleUser } from "react-icons/fa6";
+import { FaFlag } from "react-icons/fa";
 const Card = ({player}) => {
-    return (
-        <div >
-<div className='grid  grid-cols-1 md: grid-cols-3 gap-4' >
-  {players.map((player, index) => {
-  console.log(player, 'players');
+
   
   return (
     
@@ -43,13 +40,10 @@ const Card = ({player}) => {
 </div> 
   
   );
-})}
-</div>
+}
 
 
-     
-    </div>
-    );
-};
+
+    
 
 export default Card;
